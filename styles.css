@@ -1,0 +1,41 @@
+body {
+    background-color: #ffffff;
+    
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+    /* HEADER */
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 20px 0px 20px 100px;
+    align-items: center;
+}
+
+.header img {
+    width: 90px;
+    height: 90px;
+    margin-right: auto;
+}
+
+.header-links { 
+    display: flex;
+    margin-left: auto;
+    padding: 0px 100px 0px 0px;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 16px;
+    font-family: 'Roboto', arial;
+    padding: 10px;
+}
